@@ -1,2 +1,4 @@
 # aulafeuc
-git git ya ya ya
+
+Como usar o git
+Exemplo de commit
