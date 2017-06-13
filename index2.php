@@ -25,7 +25,7 @@
 				<div class="navbar-inner">
 					<div class="container">
 						<ul class="nav">
-							<li class="active"><a href="index.php">Página inicial</a></li>
+							<li class="active"><a href="index2.php">Página inicial</a></li>
 						</ul>
 					</div>
 				</div>
@@ -36,10 +36,10 @@
 
 
 		
-<p><a href="#" class="btn btn-primary" role="button">Enviar</a></p>
+<p><a href="#" class="btn btn-primary"  id="listar" role="button">Limpar</a></p>
 
 
-		<table class="table table-hover">
+		<table class="table table-hover" id="tabela">
 			
 			<thead>
 				<tr>
@@ -51,9 +51,12 @@
 			</thead>
 			
 			
-			<tbody>
-			
-				</td>
+			<tbody id="tabela2">
+				<tr>
+					<th>1</th>
+					<th>José</th>
+					<th>jose@outlook.com</th>
+					<th>Não sei</th>
 				</tr>
 			</tbody>
 
@@ -62,7 +65,7 @@
 
 	</div>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/myJS.js"></script>
 </body>
