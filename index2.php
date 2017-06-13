@@ -36,7 +36,9 @@
 
 
 		
-<p><a href="#" class="btn btn-primary"  id="listar" role="button">Limpar</a></p>
+<button class="btn btn-primary" type="button" id="listar" >
+  Listar <span class="badge">N</span>
+</button>
 
 
 		<table class="table table-hover" id="tabela">
